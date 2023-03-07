@@ -1,0 +1,1 @@
+This test string is stored in a test file 
