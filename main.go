@@ -24,6 +24,8 @@ func repetition(st string) map[string]int {
 }
 
 func main() {
+	fmt.Println("FOO:", os.Getenv("FOO"))
+
 	args := os.Args[1:]
 
 	file, err := os.Open(args[0])
